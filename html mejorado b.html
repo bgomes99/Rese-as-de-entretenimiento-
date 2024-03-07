@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reseñas de Entretenimiento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Reseñas de Entretenimiento</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#peliculas">Películas</a></li>
+        <li><a href="#series">Series</a></li>
+        <li><a href="#juegos">Juegos</a></li>
+        <li><a href="#opiniones">Opiniones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <div class="welcome">
+        <h2>¡Bienvenido a Reseñas de Entretenimiento!</h2>
+        <p>Bienvenido a nuestra página web de reseñas de entretenimiento. Aquí encontrarás las últimas críticas, reseñas y opiniones sobre películas, series y juegos. ¡Esperamos que disfrutes explorando nuestro contenido!</p>
+      </div>
+    </section>
+
+    <section id="peliculas">
+      <h2>Películas</h2>
+      <div class="review">
+        <img src="pelicula1.jpg" alt="Tenet">
+        <div class="review-content">
+          <h3>Tenet</h3>
+          <p>Tenet es una película de ciencia ficción escrita y dirigida por Christopher Nolan. La trama sigue a un agente encargado de prevenir una tercera guerra mundial utilizando la inversión temporal. Con una intrigante premisa y espectaculares efectos visuales, Tenet es una experiencia cinematográfica única que desafía las convenciones del género.</p>
+          <p>Calificación: 4.8/5</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="series">
+      <h2>Series</h2>
+      <div class="review">
+        <img src="serie1.jpg" alt="The Mandalorian">
+        <div class="review-content">
+          <h3>The Mandalorian</h3>
+          <p>The Mandalorian es una serie de televisión de acción y aventuras creada por Jon Favreau para Disney+. Ambientada en el universo de Star Wars, la serie sigue las aventuras de un cazarrecompensas solitario en los confines de la galaxia. Con una combinación de acción emocionante, personajes entrañables y efectos visuales impresionantes, The Mandalorian ha conquistado el corazón de los fans de Star Wars en todo el mundo.</p>
+          <p>Calificación: 4.9/5</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="juegos">
+      <h2>Juegos</h2>
+      <div class="review">
+        <img src="juego1.jpg" alt="The Last of Us Part II">
+        <div class="review-content">
+          <h3>The Last of Us Part II</h3>
+          <p>The Last of Us Part II es un videojuego de acción y aventuras desarrollado por Naughty Dog para PlayStation 4. La secuela del aclamado juego The Last of Us sigue la historia de Ellie en su búsqueda de venganza en un mundo postapocalíptico. Con una narrativa emocionante, jugabilidad envolvente y gráficos impresionantes, The Last of Us Part II redefine los límites del storytelling en los videojuegos.</p>
+          <p>Calificación: 5/5</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="opiniones">
+      <h2>Opiniones de Usuarios</h2>
+      <form id="opinionForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="opinion">Opinión:</label>
+        <textarea id="opinion" name="opinion" rows="4" required></textarea>
+        <button type="submit">Enviar Opinión</button>
+      </form>
+      <div id="opinionesList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Reseñas de Entretenimiento</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
